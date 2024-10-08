@@ -1,0 +1,18 @@
+{
+  "name": "teste-gerador-br",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "index": "node index.js",
+    "test": "node --test node_modules/gerador-br/test",
+    "coverage": "npx c8 --reporter=lcov node --test node_modules/gerador-br/test"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "c8": "^10.1.2",
+    "gerador-br": "^1.0.5"
+  }
+}
