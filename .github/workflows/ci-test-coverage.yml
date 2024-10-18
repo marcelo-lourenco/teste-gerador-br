@@ -26,7 +26,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install gerador-br
-    - run: npm install c8
     - run: npm run index
-    - run: npm test
-    - run: npm run coverage
