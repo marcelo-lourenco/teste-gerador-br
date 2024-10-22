@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ "master" ]
   schedule:
-    - cron: '*/30 * * * *'  # Executar a cada 30 minutos
+    - cron: '*/20 * * * *'  # Executar a cada 20 minutos
 
 jobs:
   build:
