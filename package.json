@@ -5,11 +5,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "install:gerador-br": "npm install gerador-br",
     "index": "node index.js"
   },
   "keywords": [],
   "license": "MIT",
   "dependencies": {
-    "c8": "^10.1.2"
+    "gerador-br": "^1.1.1"
   }
 }

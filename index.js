@@ -58,6 +58,30 @@ console.log(gerar.tituloEleitor(false,'PR'));
 // Gera Passaporte aleatório
 console.log(gerar.passaporte());
 
+// Gera uma Certidão (Nascimento, Casamento e Óbito)
+// Certidão aleatória
+console.log(gerar.certidao.aleatoria());       // com máscara
+console.log(gerar.certidao.aleatoria(false));  // sem máscara
+
+// Certidão de nascimento
+console.log(gerar.certidao.nascimento());      // com máscara
+console.log(gerar.certidao.nascimento(false)); // sem máscara
+
+// Certidão de casamento
+console.log(gerar.certidao.casamento());       // com máscara
+console.log(gerar.certidao.casamento(false));  // sem máscara
+
+// Certidão de óbito
+console.log(gerar.certidao.obito());           // com máscara
+console.log(gerar.certidao.obito(false));      // sem máscara
+
+// Objeto com os detalhes de Certidão
+console.log(gerar.certidao.aleatoriaObj());    // Objeto detalhado de certidão aleatória
+console.log(gerar.certidao.nascimentoObj());   // Objeto detalhado de certidão de nascimento
+console.log(gerar.certidao.casamentoObj());    // Objeto detalhado de certidão de casamento
+console.log(gerar.certidao.obitoObj());        // Objeto detalhado de certidão de óbito
+
+
 
 /* ******************** BANCOS ************************** */
 // Gera dados de um banco aleatório
